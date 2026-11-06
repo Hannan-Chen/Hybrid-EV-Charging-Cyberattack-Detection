@@ -4,6 +4,10 @@
   "scope": "Public derived benchmark, code and standalone results; no manuscript or raw ACN export.",
   "manifest_self_excluded": true,
   "files": {
+    ".gitattributes": {
+      "sha256": "1534c02c675db4bcde34fc23fad91a7e63f55327ae2552a4896b328984797761",
+      "bytes": 88
+    },
     ".gitignore": {
       "sha256": "9154863494b204fa6c23f5ac879eab566c2239da0d6bd2cda548dc0286222569",
       "bytes": 224

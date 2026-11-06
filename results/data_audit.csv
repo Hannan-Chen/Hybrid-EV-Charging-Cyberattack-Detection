@@ -1,0 +1,4 @@
+role,sources,normal_states,updates,update_sources
+train,606,630,24,22
+validation,364,382,18,14
+test,243,252,9,9

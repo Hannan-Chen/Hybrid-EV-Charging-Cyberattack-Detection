@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "test_activation_sources": 243,
+  "dt_min": 5,
+  "Pl_kW": 24.0,
+  "figure_size_inches": [
+    13.2,
+    8.16
+  ],
+  "figure_aspect_ratio": 1.6176470588235292,
+  "reference_layout": "Plot final 12 types.ipynb: plot_4x3_all",
+  "algorithm": "directly executed reference build_power_matrix/build_power_matrix_ta",
+  "reference_notebook_sha256": "c8d7f2f4d7c3d9b59df2690d0c64e53f99aa6aa9cebefff57180a0fa5bea2f7f",
+  "power_function_ast_sha256": "d343abf1e3e2cf540252629eca58165815859d5abe55e1b4c9d08c1921bc9223",
+  "normal_power_rule": "P=d/(et-st), active until min(et,disconnect)",
+  "post_attack_rule": "P=(new_d-P_original*(ta-st_original))/(et-segment_start)",
+  "per_attack": {
+    "Type-1": {
+      "eligible_test_activation_sources": 175,
+      "launch_clock": null,
+      "min_individual_profile_power_kW": 0.0,
+      "max_individual_profile_power_kW": 20.229549386034385,
+      "max_aggregate_power_kW": 440.0786716625391
+    },
+    "Type-2": {
+      "eligible_test_activation_sources": 110,
+      "launch_clock": null,
+      "min_individual_profile_power_kW": 0.0,
+      "max_individual_profile_power_kW": 20.18353983826348,
+      "max_aggregate_power_kW": 420.4146122241262
+    },
+    "Type-3": {
+      "eligible_test_activation_sources": 105,
+      "launch_clock": null,
+      "min_individual_profile_power_kW": 0.0,
+      "max_individual_profile_power_kW": 19.80189784343766,
+      "max_aggregate_power_kW": 295.8704291867737
+    },
+    "Type-4": {
+      "eligible_test_activation_sources": 175,
+      "launch_clock": null,
+      "min_individual_profile_power_kW": 0.0,
+      "max_individual_profile_power_kW": 20.480676470081118,
+      "max_aggregate_power_kW": 463.73020809571096
+    },
+    "Type-5": {
+      "eligible_test_activation_sources": 175,
+      "launch_clock": null,
+      "min_individual_profile_power_kW": 0.0,
+      "max_individual_profile_power_kW": 20.671893517460024,
+      "max_aggregate_power_kW": 367.27674480623546
+    },
+    "Type-6": {
+      "eligible_test_activation_sources": 175,
+      "launch_clock": null,
+      "min_individual_profile_power_kW": 0.0,
+      "max_individual_profile_power_kW": 20.66709168268024,
+      "max_aggregate_power_kW": 458.42407733050425
+    },
+    "Type-1-ta": {
+      "eligible_test_activation_sources": 102,
+      "launch_clock": "18:55",
+      "min_individual_profile_power_kW": 0.0,
+      "max_individual_profile_power_kW": 20.406505896748808,
+      "max_aggregate_power_kW": 412.835142507624
+    },
+    "Type-2-ta": {
+      "eligible_test_activation_sources": 105,
+      "launch_clock": "15:55",
+      "min_individual_profile_power_kW": 0.0,
+      "max_individual_profile_power_kW": 19.38332915356236,
+      "max_aggregate_power_kW": 394.8302943067955
+    },
+    "Type-3-ta": {
+      "eligible_test_activation_sources": 45,
+      "launch_clock": "15:55",
+      "min_individual_profile_power_kW": 0.0,
+      "max_individual_profile_power_kW": 19.75130029691715,
+      "max_aggregate_power_kW": 301.0658813230493
+    },
+    "Type-4-ta": {
+      "eligible_test_activation_sources": 105,
+      "launch_clock": "15:55",
+      "min_individual_profile_power_kW": 0.0,
+      "max_individual_profile_power_kW": 20.520369780956,
+      "max_aggregate_power_kW": 425.5748508157708
+    },
+    "Type-5-ta": {
+      "eligible_test_activation_sources": 105,
+      "launch_clock": "15:55",
+      "min_individual_profile_power_kW": 0.0,
+      "max_individual_profile_power_kW": 20.52036978071346,
+      "max_aggregate_power_kW": 301.0658813230493
+    },
+    "Type-6-ta": {
+      "eligible_test_activation_sources": 102,
+      "launch_clock": "18:55",
+      "min_individual_profile_power_kW": 0.0,
+      "max_individual_profile_power_kW": 20.520833333161722,
+      "max_aggregate_power_kW": 430.6802953413092
+    }
+  }
+}

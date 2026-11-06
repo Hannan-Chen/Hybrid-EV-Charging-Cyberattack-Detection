@@ -1,0 +1,91 @@
+{
+  "signature": "3f64ffa0426fa292274d4bb935f8da5869afd5c356a8227043df545250ac19f0",
+  "condition_id": "m2_n10",
+  "winners": [
+    {
+      "config_id": "deepsad13",
+      "method": "DeepSAD",
+      "successful": true,
+      "mean": 0.5123768769989699,
+      "sd": 0.07521073150611683,
+      "minimum": 0.46969696969696967,
+      "robust_score": 0.47477151124591155,
+      "update_fpr": 0.05555555555555556,
+      "normal_fpr": 0.002617801047120419,
+      "complexity": 4096
+    },
+    {
+      "config_id": "rf0",
+      "method": "RF",
+      "successful": true,
+      "mean": 0.9103665413533836,
+      "sd": 0.04357680141059057,
+      "minimum": 0.8497023809523809,
+      "robust_score": 0.8885781406480883,
+      "update_fpr": 0.05555555555555556,
+      "normal_fpr": 0.002617801047120419,
+      "complexity": 32768.0
+    },
+    {
+      "config_id": "sdtn6",
+      "method": "SDTN",
+      "successful": true,
+      "mean": 0.8082111939348782,
+      "sd": 0.19290844734615145,
+      "minimum": 0.46969696969696967,
+      "robust_score": 0.7117569702618024,
+      "update_fpr": 0.05555555555555556,
+      "normal_fpr": 0.012041884816753926,
+      "complexity": 4096
+    },
+    {
+      "config_id": "ss20",
+      "method": "SS",
+      "successful": true,
+      "mean": 0.5955266955266956,
+      "sd": 0.2639488238496665,
+      "minimum": 0.37777777777777777,
+      "robust_score": 0.4635522836018623,
+      "update_fpr": 0.05555555555555556,
+      "normal_fpr": 0.002617801047120419,
+      "complexity": 4096
+    },
+    {
+      "config_id": "U_fixed",
+      "method": "U",
+      "successful": true,
+      "mean": 0.6149539737026808,
+      "sd": 0.052000596973159376,
+      "minimum": 0.5576388888888889,
+      "robust_score": 0.5889536752161011,
+      "update_fpr": 0.05555555555555556,
+      "normal_fpr": 0.04450261780104712,
+      "complexity": 0
+    },
+    {
+      "config_id": "rf0_w0.5",
+      "method": "U+RF",
+      "successful": true,
+      "mean": 0.9103665413533836,
+      "sd": 0.04357680141059057,
+      "minimum": 0.8497023809523809,
+      "robust_score": 0.8885781406480883,
+      "update_fpr": 0.05555555555555556,
+      "normal_fpr": 0.002617801047120419,
+      "complexity": 32768.0
+    },
+    {
+      "config_id": "sdtn6_w1.0",
+      "method": "U+SDTN",
+      "successful": true,
+      "mean": 0.8231462588699431,
+      "sd": 0.16027981806667102,
+      "minimum": 0.5443722943722944,
+      "robust_score": 0.7430063498366075,
+      "update_fpr": 0.05555555555555556,
+      "normal_fpr": 0.02722513089005235,
+      "complexity": 4096
+    }
+  ],
+  "test_accessed": false
+}

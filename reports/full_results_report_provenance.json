@@ -1,0 +1,23 @@
+{
+  "source_csv_sha256": {
+    "ablation_validation.csv": "78a9fc78ab7f49f152ecef8c0a0e3d38ae620e27c538e2f75b5a3e9099fdae88",
+    "actual_attack_label_costs.csv": "7a3855a9f64248d9033a320b8ba230c3423c527d8eab4f7e9d844c1836dd9767",
+    "attack_source_and_launch_group_counts.csv": "68366f8f066b298a7a5a2af2ea330bf0177f4f364e76f415f429821658225303",
+    "case_summary.csv": "b99312cb33884485bfce58a1d917ed0162ae9818cc3a344d82d2f8235b57bda3",
+    "cross_repeat_label_exposure.csv": "1e09d661bcdf708a9226f141c6da1737cda3c9d4b84678ea260dc584d6258a85",
+    "data_audit.csv": "9dc631ccc73d284e4398ac2922041f6c029e036aa82d47a62f47ef77d33a2959",
+    "gains_and_label_costs.csv": "825f8900f51aec83da2bec5654a1590630084e3c025392c444b69616f41cdaa6",
+    "matched_ablation_comparison.csv": "41177dafce3fefcc942a1b3e9e38e69f3d1ccd30d9a90c29c7aa29c94344dbc0",
+    "model_budget_summary.csv": "875848db5c1122a124aacf3ddb9108413632f0d2d5315af615a92c03cc8792ce",
+    "normal_only_baseline.csv": "e9023dd5049fa0fb5a6ed3a0fe6e4513aa9edf35edf1c2abe2aa46d9b9776ed9",
+    "paired_source_bootstrap.csv": "d1e2d5354954d65eeb9458c33e72951165e83dd056698e1e9890cf3f789e9a63",
+    "shortcut_controls.csv": "a225e59e378c51c0d4035e6630bc58f623d9575eb7db5a2afee7582e00835089",
+    "test_per_setting.csv": "1a791ae8cb291fa80a8f025f863c2af4f3675668703e64ca70268f9ea42d7bf5",
+    "test_per_variant.csv": "01dd205eb14909387d79cbace6b58e8bac8b19bf485f5902276c294beec9765b"
+  },
+  "protocol_signature": "3f64ffa0426fa292274d4bb935f8da5869afd5c356a8227043df545250ac19f0",
+  "local_verification_assertions": 653033,
+  "new_report_sha256": "81bf5e6e294fe53f927f5a3c08c4e156d90a41c3d313606142bc0a6218a3c3bf",
+  "scope": "derived reporting only; no fitting, selection or threshold changes",
+  "global_sd_definition": "sample SD of five repeat means, each mean equally over six mechanisms"
+}

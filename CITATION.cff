@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the original ACN-Data paper and identify the repository version used."
+title: "Hybrid EV Charging Cyberattack Detection: Code and Experimental Database"
+type: software
+authors:
+  - family-names: Chen
+    given-names: Hannan
+  - family-names: Zhang
+    given-names: Jie
+repository-code: "https://github.com/Hannan-Chen/Hybrid-EV-Charging-Cyberattack-Detection"
+url: "https://github.com/Hannan-Chen/Hybrid-EV-Charging-Cyberattack-Detection"
+version: "1.0.0"
+date-released: "2026-11-06"
+abstract: "Fixed-pool, source-disjoint EV charging attack detection with recorded benign user updates and limited known attack labels."

@@ -1,0 +1,91 @@
+{
+  "signature": "3f64ffa0426fa292274d4bb935f8da5869afd5c356a8227043df545250ac19f0",
+  "condition_id": "m6_n50",
+  "winners": [
+    {
+      "config_id": "deepsad10",
+      "method": "DeepSAD",
+      "successful": true,
+      "mean": 0.9619047619047618,
+      "sd": 0.0,
+      "minimum": 0.9619047619047618,
+      "robust_score": 0.9619047619047618,
+      "update_fpr": 0.05555555555555556,
+      "normal_fpr": 0.002617801047120419,
+      "complexity": 1024
+    },
+    {
+      "config_id": "rf1",
+      "method": "RF",
+      "successful": true,
+      "mean": 0.9619047619047618,
+      "sd": 0.0,
+      "minimum": 0.9619047619047618,
+      "robust_score": 0.9619047619047618,
+      "update_fpr": 0.05555555555555556,
+      "normal_fpr": 0.002617801047120419,
+      "complexity": 6553.6
+    },
+    {
+      "config_id": "sdtn6",
+      "method": "SDTN",
+      "successful": true,
+      "mean": 0.9923809523809524,
+      "sd": 0.017036708399998438,
+      "minimum": 0.9619047619047618,
+      "robust_score": 0.9838625981809531,
+      "update_fpr": 0.01111111111111111,
+      "normal_fpr": 0.040314136125654446,
+      "complexity": 4096
+    },
+    {
+      "config_id": "ss17",
+      "method": "SS",
+      "successful": true,
+      "mean": 1.0,
+      "sd": 0.0,
+      "minimum": 1.0,
+      "robust_score": 1.0,
+      "update_fpr": 0.0,
+      "normal_fpr": 0.049738219895287955,
+      "complexity": 1024
+    },
+    {
+      "config_id": "U_fixed",
+      "method": "U",
+      "successful": true,
+      "mean": 0.84011420828494,
+      "sd": 0.01344988724904007,
+      "minimum": 0.821602787456446,
+      "robust_score": 0.83338926466042,
+      "update_fpr": 0.05555555555555556,
+      "normal_fpr": 0.04450261780104712,
+      "complexity": 0
+    },
+    {
+      "config_id": "rf1_w0.5",
+      "method": "U+RF",
+      "successful": true,
+      "mean": 0.9619047619047618,
+      "sd": 0.0,
+      "minimum": 0.9619047619047618,
+      "robust_score": 0.9619047619047618,
+      "update_fpr": 0.05555555555555556,
+      "normal_fpr": 0.002617801047120419,
+      "complexity": 6553.6
+    },
+    {
+      "config_id": "sdtn6_w0.5",
+      "method": "U+SDTN",
+      "successful": true,
+      "mean": 0.9619047619047618,
+      "sd": 0.0,
+      "minimum": 0.9619047619047618,
+      "robust_score": 0.9619047619047618,
+      "update_fpr": 0.05555555555555556,
+      "normal_fpr": 0.04397905759162303,
+      "complexity": 4096
+    }
+  ],
+  "test_accessed": false
+}

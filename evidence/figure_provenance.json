@@ -1,0 +1,16 @@
+{
+  "source_experiment": "Hybrid-EV-Charging-Cyberattack-Detection",
+  "source_sha256": {
+    "results\\case_summary.csv": "b99312cb33884485bfce58a1d917ed0162ae9818cc3a344d82d2f8235b57bda3",
+    "results\\test_per_setting.csv": "1a791ae8cb291fa80a8f025f863c2af4f3675668703e64ca70268f9ea42d7bf5",
+    "results\\test_per_variant.csv": "01dd205eb14909387d79cbace6b58e8bac8b19bf485f5902276c294beec9765b",
+    "results\\frozen_design.json": "691ccda79facf9ff9cb55226908bf4570180aba4d053fbf0b20cbddb949be061",
+    "results\\final_selection_freeze.json": "5c3a5d970d136a38dfda3b159ec5a20c3bede73580237b2e01026c0b1da75e1f",
+    "results\\cross_repeat_label_exposure.csv": "1e09d661bcdf708a9226f141c6da1737cda3c9d4b84678ea260dc584d6258a85"
+  },
+  "protocol_signature": "3f64ffa0426fa292274d4bb935f8da5869afd5c356a8227043df545250ac19f0",
+  "selection_signature": "5523199fcd923d21c7192e1abcc0383e858a17676613ab14a0bac55731abe304",
+  "analysis_only": true,
+  "bootstrap": "1000 source-paired draws; same weights across mechanisms, variants and fixed repeats; exploratory; no multiple-test correction",
+  "unmodified_input_files": 6
+}

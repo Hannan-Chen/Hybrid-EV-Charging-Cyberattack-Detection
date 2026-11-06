@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "assertions": 653199,
+  "development_base_fits": 4320,
+  "recorded_fit_failures": 0,
+  "frozen_test_cases": 1440,
+  "setting_rows": 8640,
+  "variant_rows": 17280,
+  "protocol_signature": "3f64ffa0426fa292274d4bb935f8da5869afd5c356a8227043df545250ac19f0",
+  "selection_signature": "5523199fcd923d21c7192e1abcc0383e858a17676613ab14a0bac55731abe304",
+  "public_input_transformations_verified": true,
+  "source_location_metadata_redacted_models": 5,
+  "scope": "independent source/label/threshold/selection/count audit with documented public de-identification; not proof of real-world generalization"
+}

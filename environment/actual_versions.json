@@ -1,0 +1,21 @@
+{
+  "python": "3.10.18",
+  "platform": "Linux-5.14.0-687.41.1.el9_8.x86_64-x86_64-with-glibc2.34",
+  "packages": {
+    "torch": "2.6.0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.2",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.5",
+    "joblib": "1.5.1",
+    "nbformat": "5.10.4",
+    "nbconvert": "7.16.6"
+  },
+  "worker_cap": 16,
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "sha256": {
+    "data/raw/caltech_sessions_2021.json": "a1a3dbfc9faf167841c1f27be3c6ea85dff73e6d9178df0e1c90ff4de2a97459",
+    "data/processed/multi_input_state_catalog.csv": "f344d0d223a76fe99159709570c47653fef5cc77746983a50180e6a38ee0043f",
+    "data/processed/multi_input_source_split_plan.json": "9663fe9233d76f838adf2ceff42f42e6de3015a2e0a0271cf5b9d41c1d4ab6c3",
+    "data/processed/fixed_multi_input_attack_pool_seed66.joblib": "085714ac4e9eb2bd9ecd67ac55409c3fea15054ae9a117a3510253a2f15f930c",
+    "reference/cma_attack_generator_reference.ipynb": "c8d7f2f4d7c3d9b59df2690d0c64e53f99aa6aa9cebefff57180a0fa5bea2f7f",
+    "src/masked_transition_model_search_core.py": "b7c9cf256ae5a782e5d325a0aa6fee6b7672ba146f39d1db8d512e1bad382b75",
+    "src/session_model_runtime.py": "03edbe500ed7fc605893db50c8755c7552d6d3437a8a452593d2eea79079d570"
+  },
+  "attack_regenerated": false,
+  "benign_updates_simulated": false,
+  "reference_project_written": false,
+  "raw_ACN_JSON": "Not redistributed; obtain from the official ACN-Data portal under its terms."
+}

@@ -1,0 +1,64 @@
+{
+  "release_format": 1,
+  "release_date": "2026-11-06",
+  "original_experiment": "semisupervised_ev_cma_six_mechanism_catt015_20261104",
+  "original_inputs_transformed": {
+    "reference/cma_attack_generator_reference.ipynb": {
+      "original_sha256": "c8d7f2f4d7c3d9b59df2690d0c64e53f99aa6aa9cebefff57180a0fa5bea2f7f",
+      "released_sha256": "76d716fe15d8bd6b439b46c81153bc6f55743014546f51fbf848ec3a8ec08ecd",
+      "changes": "Notebook outputs removed; executable source and reference power functions unchanged."
+    },
+    "data/processed/fixed_multi_input_attack_pool_seed66.joblib": {
+      "original_sha256": "085714ac4e9eb2bd9ecd67ac55409c3fea15054ae9a117a3510253a2f15f930c",
+      "released_sha256": "fffd78d12646ac62eea0c4fa1b41eef03f0525cf1df86b23fe0d5d7e06510a57",
+      "changes": "Calendar dates shifted per source to a synthetic anchor; all numerical detector arrays, time-of-day values, durations and indices unchanged; relative metadata paths."
+    },
+    "data/processed/multi_input_state_catalog.csv": {
+      "original_sha256": "f344d0d223a76fe99159709570c47653fef5cc77746983a50180e6a38ee0043f",
+      "released_sha256": "1e2ce1f2c887e0a89bad2e063fb72a21eccb0b5eaf3731c69fba2e6a766c62c3",
+      "changes": "Raw session identifiers replaced with source-NNNN; dates anchored per source; event order and numerical columns unchanged."
+    },
+    "data/input_manifest.json": {
+      "original_sha256": "c234b16d0a91f1f1489fa87f1c89c8ea72e28a3f7ebc88ba5dcb18fcecd5bf0d",
+      "released_sha256": "3860158d0016820836f0d8ea0182b1eaa047aab00c7fbba051c9a3d048415e7c",
+      "changes": "Private local path removed; raw-data retrieval notice added; original source hashes preserved."
+    },
+    "results/cache/models/u_166.pkl": {
+      "original_sha256": "158220b641d8f8e99f0ad70091f5f751a192763e3e8fe6bbdb2f2ada2b25ccea",
+      "released_sha256": "b87d8d25cf8913cadde15734a9e608f074d6b0b321c0352fa3e88370bde9487c",
+      "changes": "Only source-location string metadata redacted in place. Pickle operations, numerical/tensor byte payloads and all other values unchanged."
+    },
+    "results/cache/models/u_266.pkl": {
+      "original_sha256": "725dce7b94cf1c66815ec6bee61279d5f5d4da459f5db6d19281001b62a2cfe6",
+      "released_sha256": "c94f26ddf297cd8497814e4a5641167bf2509cf84e60f9ba4b58a49c16844d34",
+      "changes": "Only source-location string metadata redacted in place. Pickle operations, numerical/tensor byte payloads and all other values unchanged."
+    },
+    "results/cache/models/u_366.pkl": {
+      "original_sha256": "a93a437d4ea976e3676513ea8dab7fcad7e3512f1869ed392ad70cde70564b0c",
+      "released_sha256": "b1093defaefe873916af1e76b14e02aaca7026e6f9a383aeba9d73bc40180506",
+      "changes": "Only source-location string metadata redacted in place. Pickle operations, numerical/tensor byte payloads and all other values unchanged."
+    },
+    "results/cache/models/u_466.pkl": {
+      "original_sha256": "952bf9e5c537e546a8e893a102d72d5eeed3fdab80691943bfc827be4c32e0a5",
+      "released_sha256": "a99144289e15669bd5c8db20af95f50e8661f05a6036f443799653d7c43d0021",
+      "changes": "Only source-location string metadata redacted in place. Pickle operations, numerical/tensor byte payloads and all other values unchanged."
+    },
+    "results/cache/models/u_66.pkl": {
+      "original_sha256": "e36718e399cc56c6f4e7170aedc51f885de1fa3549281e74fc588998f16bc2dd",
+      "released_sha256": "d790afc85382cd7022c313cca657784058bb8f4416121d030e5749b359cd1782",
+      "changes": "Only source-location string metadata redacted in place. Pickle operations, numerical/tensor byte payloads and all other values unchanged."
+    }
+  },
+  "omitted_original_inputs": {
+    "data/raw/caltech_sessions_2021.json": "a1a3dbfc9faf167841c1f27be3c6ea85dff73e6d9178df0e1c90ff4de2a97459"
+  },
+  "feature_and_time_invariance_checks": 49349,
+  "identity_handling": "Pseudonymous source IDs retained; session/user/station identifiers not released; calendar dates replaced with synthetic per-source anchors. Not a claim of irreversible anonymity.",
+  "numeric_feature_arrays_identical": true,
+  "attack_pool_not_regenerated": true,
+  "models_and_saved_predictions_copied_unchanged": false,
+  "original_model_count": 980,
+  "no_manuscript_files": true,
+  "all_model_numeric_payloads_unchanged": true,
+  "source_location_metadata_redacted_models": 5
+}
